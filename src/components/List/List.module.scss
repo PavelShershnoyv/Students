@@ -1,0 +1,25 @@
+.wrapper{ 
+
+  .cell{
+    @media (max-width: 630px) {
+      display: none;
+    }
+  }
+
+  .card{
+    @media (min-width: 630px) {
+      display: none;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+
+  p{
+    font-size: 28px;
+  }
+}
